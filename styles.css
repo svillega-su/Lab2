@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+    height: 200px;
+}
+
+.kid {
+    background-color: paleturquoise;
+    margin: 10px;
+    flex-basis: 50%;
+    flex-shrink: 1;
+}
+
+.red-kid {
+    background-color: palevioletred;
+    margin: 10px;
+    flex: 1 0 0px;
+}
+
+.red-kid-middle {
+    flex-grow: 2;
+}
+
+.purple-kid {
+    background-color: violet;
+    margin: 10px;
+    flex: 2 0 0px;
+}
+
+.purple-kid-middle {
+    flex-grow: 1;
+}
+
+.green-kid {
+    flex-basis: 33.3333%;
+    background-color: palegreen;
+    margin: 10px;
+}
+
+.green-container {
+    justify-content: space-between;
+}
+
+.yellow-kid {
+    background-color: palegoldenrod;
+    margin: 10px;
+    flex-basis: 25%;
+}
+
+.yellow-kid-last {
+    margin-left: auto;
+}
+
+.html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.page2 .html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.page2 .body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.page2 .header {
+    flex: 0 0 100px;
+    background-color: lightcoral;
+}
+
+.page2 .footer {
+    flex: 0 0 200px;
+    background-color: lightslategray;
+    justify-content: flex-end;
+} 
+
+.page2 .right-content {
+    display: flex;
+    float: right;
+    flex-grow: 3;
+    background-color: lightgray;
+    margin: 10px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.page2 .left-content {
+    background-color: lightgray;
+    flex: 2 0 0px;
+    float: right;
+    margin: 10px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.page3 .html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.page3 .body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3 .flex-container {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.page3 .flex-item {
+    display: flex;
+    margin: 10px;
+    flex: 3 0 100px;
+    background-color: palevioletred;
+}
+
